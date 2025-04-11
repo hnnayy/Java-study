@@ -10,4 +10,6 @@ public class Method2 {
     public static void main(String[] args) {
         isi();
     }
+    pu
 }
+pub;o

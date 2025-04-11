@@ -1,4 +1,3 @@
-package latihan_bikin;
 import java.util.Scanner;
 
 /*
