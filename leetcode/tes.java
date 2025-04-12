@@ -5,6 +5,11 @@ public class tes {
         // int num = 1;
         int[] num = {1,2,3};
         System.out.println(Arrays.toString(num));
+
+        for(int i = 0; i < 5; i++){
+            System.out.println("hanin");
+
+        }
     }
 }
 
