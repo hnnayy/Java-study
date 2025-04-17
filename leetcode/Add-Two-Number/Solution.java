@@ -46,4 +46,9 @@ public class Solution {
         ListNode result = solution.addTwoNumbers(l1, l2);
 
         // Output the result linked list
-        while (result != null)
+        while (result != null) {
+            System.out.print(result.val + " ");  // Print each value followed by a space
+            result = result.next;               // Move to the next node
+        }
+    }
+}
