@@ -1,20 +1,24 @@
-package Maven.demo.src.main.java.Bean;
+package Bean;
 
 public class MyBean {
     private String message;
-    public static void main(String[] args) {
+
+    public MyBean() {
+        this.message = "Hello from MyBean!";
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
         this.message = message;
     }
 
-    public void showMessage() {
-        System.out.println("Your Message : " + message);
-    }
-
-    @override
+    @Override
     public String toString() {
         return "MyBean{" +
                 "message='" + message + '\'' +
                 '}';
     }
-
 }

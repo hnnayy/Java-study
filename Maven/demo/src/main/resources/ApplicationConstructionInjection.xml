@@ -4,8 +4,11 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="myBean" class="Bean.MyBean">
-        <property name="message" value="i am gonna be cool"/>
+    <bean id="carSpecification" class="car.example.construction.injection.Specification">
+        <property name="make" value="Toyota"/>
+        <property name="model" value="Corolla"/>
     </bean>
 
+    <bean id="Mycar" class="car.example.construction.injection.Car">
+        <constructor-arg ref="carSpecification"/>
 </beans>
