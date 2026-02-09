@@ -69,7 +69,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.6.3</version>
 				<configuration>
-					<mainClass>Bean.App</mainClass>
+				<mainClass>car.example.construction.injection.App</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

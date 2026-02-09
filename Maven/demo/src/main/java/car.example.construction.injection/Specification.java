@@ -1,8 +1,15 @@
 package car.example.construction.injection;
 
 public class Specification {
+    private String make;
+    private String model;
+
     public void setMake(String make) {
         this.make = make;   
+    }
+
+    public String getMake() {
+        return make;
     }
 
     public String getModel() {
