@@ -1,0 +1,5 @@
+com\example\demo\StudentService.class
+com\example\demo\StudentRepo.class
+com\example\demo\MyController.class
+com\example\demo\SpringBootRestApiApplication.class
+com\example\demo\Student.class
